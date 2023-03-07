@@ -1,0 +1,13 @@
+
+CASOS FALLIDOS EN LA REGRESIÓN AUTOMATIZADA:
+
+MODULO: orange --> ESCENARIO: Hacer login tomando las credenciales de la pagina
+MODULO: orange --> ESCENARIO: Hacer login tomando las credenciales de la pagina
+MODULO: orange --> ESCENARIO: Hacer login tomando las credenciales de la pagina
+MODULO: orange --> ESCENARIO: Hacer login tomando las credenciales de la pagina
+MODULO: Pibox --> ESCENARIO: Hacer login tomando las credenciales de la pagina
+MODULO: Pibox --> ESCENARIO: Hacer login tomando las credenciales de la pagina
+MODULO: Pibox --> ESCENARIO: Hacer login tomando las credenciales de la pagina
+MODULO: Pibox --> ESCENARIO: Hacer login tomando las credenciales de la pagina
+MODULO: Pibox --> ESCENARIO: Hacer login tomando las credenciales de la pagina
+MODULO: Pibox --> ESCENARIO: Hacer login tomando las credenciales de la pagina
