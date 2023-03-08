@@ -11,3 +11,13 @@ MODULO: Pibox --> ESCENARIO: Hacer login tomando las credenciales de la pagina
 MODULO: Pibox --> ESCENARIO: Hacer login tomando las credenciales de la pagina
 MODULO: Pibox --> ESCENARIO: Hacer login tomando las credenciales de la pagina
 MODULO: Pibox --> ESCENARIO: Hacer login tomando las credenciales de la pagina
+MODULO: Pibox --> ESCENARIO: Crear usuario con el rol admin
+MODULO: Pibox --> ESCENARIO: Crear usuario con el rol admin
+MODULO: Pibox --> ESCENARIO: Crear usuario con el rol admin
+MODULO: Pibox --> ESCENARIO: Crear usuario con el rol admin
+MODULO: Pibox --> ESCENARIO: Crear usuario con el rol admin
+MODULO: Pibox --> ESCENARIO: Crear usuario con el rol admin
+MODULO: Pibox --> ESCENARIO: Crear usuario con el rol admin
+MODULO: Pibox --> ESCENARIO: Crear usuario con el rol admin
+MODULO: Pibox --> ESCENARIO: Crear usuario con el rol admin
+MODULO: Pibox --> ESCENARIO: Crear usuario con el rol admin
