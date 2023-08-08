@@ -18,15 +18,40 @@ public class modulAdminSteps {
     }
 
     @Step
-    public void SearchUserSystem(){
+    public void searchUserSystem(){
         modulAdminPo.setFieldUserName(modulAdminPo.getLabelUserNameConsult());
         modulAdminPo.setFieldUserRol();
         modulAdminPo.clickElementList(modulAdminPo.getlabelUserRol());
         modulAdminPo.setfieldUserState();
         modulAdminPo.clickElementList(modulAdminPo.getlabelUserState());
-        //modulAdminPo.setfieldEmployeeName(modulAdminPo.getlabelEmployeName());
-        //modulAdminPo.clickElementList(modulAdminPo.getlabelEmployeName());
-
         modulAdminPo.fieldButtonSearch();
+    }
+
+    @Step
+    public void validationImforUserSearch(){
+        if(!modulAdminPo.isVisibleUserSearch()){
+            Reporte.reports("FAIL","usuario no encontrado en la busqueda", Reporte.takeSnapShot(DriverFactory.getDriver()));
+            Assert.fail("falla de credenciales");
+        }
+        Reporte.reports("PASS","usuario encontrado en la busqueda ", Reporte.takeSnapShot(DriverFactory.getDriver()));
+    }
+
+    @Step
+    public void deleteUser(){
+        modulAdminPo.buttonIconDelete();
+        if(!modulAdminPo.isVisibleLabelDelete()){
+            Reporte.reports("FAIL","mssg no encontrado", Reporte.takeSnapShot(DriverFactory.getDriver()));
+            Assert.fail("falla en el mssg de comfirmacion eliminar");
+        }
+        Reporte.reports("PASS","mssg: " + modulAdminPo.getLabelComDeleteUser(), Reporte.takeSnapShot(DriverFactory.getDriver()));
+        modulAdminPo.buttonComIconDelete();
+    }
+
+    public void validationDeleteUser(){
+        if(!modulAdminPo.isVisibleSuccesDeleteUser()){
+            Reporte.reports("FAIL","usuario no se pudo eliminar", Reporte.takeSnapShot(DriverFactory.getDriver()));
+            Assert.fail("falla al elminar el usuario");
+        }
+        Reporte.reports("PASS","mssg: " + modulAdminPo.getLabelSuccesDeleteUser(), Reporte.takeSnapShot(DriverFactory.getDriver()));
     }
 }

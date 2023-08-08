@@ -18,6 +18,17 @@ public class modulAdminDefinitions {
 
     @And("ingreso la informacion del usuario doy click en buscar")
     public void searchUser(){
-        modulAdminSteps.SearchUserSystem();
+        modulAdminSteps.searchUserSystem();
+    }
+
+    @And("valido que la busqueda este correcta")
+    public  void validationUserSearch(){
+        modulAdminSteps.validationImforUserSearch();
+    }
+
+    @Then("que se elimine el usuario")
+    public  void validationUserDelte(){
+        modulAdminSteps.deleteUser();
+        modulAdminSteps.validationDeleteUser();
     }
 }

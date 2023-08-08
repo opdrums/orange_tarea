@@ -36,3 +36,10 @@ MODULO: Pibox --> ESCENARIO: Eliminar usuario
 MODULO: Pibox --> ESCENARIO: Eliminar usuario
 MODULO: Pibox --> ESCENARIO: Eliminar usuario
 MODULO: Pibox --> ESCENARIO: Eliminar usuario
+MODULO: Pibox --> ESCENARIO: Eliminar usuario
+MODULO: Pibox --> ESCENARIO: Eliminar usuario
+MODULO: Pibox --> ESCENARIO: Eliminar usuario
+MODULO: Pibox --> ESCENARIO: Eliminar usuario
+MODULO: Pibox --> ESCENARIO: Eliminar usuario
+MODULO: Pibox --> ESCENARIO: Eliminar usuario
+MODULO: Pibox --> ESCENARIO: Eliminar usuario
