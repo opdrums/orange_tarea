@@ -11,4 +11,4 @@ Feature: Yo como automatizador requiero crear usuarios
 
     Examples:
       | Ambiente | menu| userrol| userState| empresa| nombre| password| comfirmarPassword|
-      | CO |Admin|2|2|1|test5|Test_123|Test_123|
+      | CO |Admin|2|2|1|test2|Test_123|Test_123|

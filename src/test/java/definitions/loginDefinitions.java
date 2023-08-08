@@ -32,6 +32,12 @@ public class loginDefinitions {
         loginSteps.clickButtonLogin();
     }
 
+    @When("^ingreso las credenciales (.*) y (.*)$")
+    public void loginCredentialUser(String name , String password){
+        loginSteps.loginCredentialUser(name, password);
+        loginSteps.clickButtonLogin();
+    }
+
     @Then("visualizar el nombre del usuario")
     public  void viewUserName(){
         loginSteps.validateUserLogin();

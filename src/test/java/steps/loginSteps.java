@@ -34,14 +34,19 @@ public class loginSteps {
         Reporte.reports("PASS","usuario ingresado correctamente", Reporte.takeSnapShot(DriverFactory.getDriver()));
     }
 
+    public void loginCredentialUser(String name, String password){
+        login.setFieldUserName(name);
+        login.setFieldUserPassword(password);
+    }
+
     public  void clickButtonLogin(){
         login.clickButtonLogin();
     }
 
     public void validateUserLogin(){
-        if(!login.isVisibleNameUser()){
-            Reporte.reports("FAIL","usuario no encontrado", Reporte.takeSnapShot(DriverFactory.getDriver()));
-            Assert.fail("Credenciales incorrectamente");
+        if(login.isVisibleCredentialInvalid()){
+            Reporte.reports("FAIL","usuario tiene: " + login.getTextCredentialInvalid(), Reporte.takeSnapShot(DriverFactory.getDriver()));
+            Assert.fail("no realizo login de la forma correcta");
         }
         Reporte.reports("PASS","usuario ingresado correctamente: " + login.getTextUserName(), Reporte.takeSnapShot(DriverFactory.getDriver()));
     }

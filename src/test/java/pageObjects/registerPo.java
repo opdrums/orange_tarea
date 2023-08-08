@@ -85,7 +85,7 @@ public class registerPo extends WebBasePage{
     public void clickButtonSaveUser(){
         waitUntilElementIsVisible(buttonSaveUser);
         buttonSaveUser.click();
-        waitTime(2);
+        waitTime(3);
     }
 
     public boolean alertUser(){

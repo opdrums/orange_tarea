@@ -21,3 +21,18 @@ MODULO: Pibox --> ESCENARIO: Crear usuario con el rol admin
 MODULO: Pibox --> ESCENARIO: Crear usuario con el rol admin
 MODULO: Pibox --> ESCENARIO: Crear usuario con el rol admin
 MODULO: Pibox --> ESCENARIO: Crear usuario con el rol admin
+MODULO: Pibox --> ESCENARIO: Crear usuario con el rol admin
+MODULO: Pibox --> ESCENARIO: Hacer login con credenciales
+MODULO: Pibox --> ESCENARIO: Hacer login con credenciales
+MODULO: Pibox --> ESCENARIO: Hacer login con credenciales
+MODULO: Pibox --> ESCENARIO: Hacer login con credenciales
+MODULO: Pibox --> ESCENARIO: Hacer login con credenciales
+MODULO: Pibox --> ESCENARIO: Hacer login con credenciales
+MODULO: Pibox --> ESCENARIO: Hacer login con credenciales
+MODULO: Pibox --> ESCENARIO: Hacer login con credenciales
+MODULO: Pibox --> ESCENARIO: Hacer login con credenciales
+MODULO: Pibox --> ESCENARIO: Eliminar usuario
+MODULO: Pibox --> ESCENARIO: Eliminar usuario
+MODULO: Pibox --> ESCENARIO: Eliminar usuario
+MODULO: Pibox --> ESCENARIO: Eliminar usuario
+MODULO: Pibox --> ESCENARIO: Eliminar usuario

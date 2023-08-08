@@ -11,7 +11,7 @@ public class loginPo extends WebBasePage {
     @FindBy (xpath = "//p[2]")
     private WebElement getTextPassword;
 
-    @FindBy (xpath = "//p")
+    @FindBy (xpath = "//span[@class='oxd-userdropdown-tab']//p")
     private WebElement labelNameUser;
 
     @FindBy (xpath = "//input[@name='username']")
@@ -22,6 +22,9 @@ public class loginPo extends WebBasePage {
 
     @FindBy(xpath = "//button[@type='submit']")
     private WebElement buttonLogin;
+
+    @FindBy (xpath = "//div[@class='oxd-alert-content oxd-alert-content--error']")
+    private WebElement labelValidationCredentialInvalidate;
 
     public String getTexUserName(){
         waitUntilElementIsVisible(getTextUser);
@@ -57,12 +60,22 @@ public class loginPo extends WebBasePage {
     }
 
     public boolean isVisibleNameUser(){
-        waitUntilElementIsVisible(labelNameUser);
+        waitUntilElementIsVisibleNonThrow(labelNameUser,10);
         return isVisible(labelNameUser);
     }
 
     public void clickButtonLogin(){
         waitUntilElementIsVisible(buttonLogin);
         buttonLogin.click();
+    }
+
+    public boolean isVisibleCredentialInvalid(){
+        waitUntilElementIsVisibleNonThrow(labelValidationCredentialInvalidate, 10);
+        return isVisible(labelValidationCredentialInvalidate);
+    }
+
+    public String getTextCredentialInvalid(){
+        waitUntilElementIsVisible(labelValidationCredentialInvalidate);
+        return labelValidationCredentialInvalidate.getText();
     }
 }

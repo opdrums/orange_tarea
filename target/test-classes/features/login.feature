@@ -8,3 +8,12 @@ Feature: Como automatizador requiero hacer login
     Examples:
       | Ambiente |
       | CO |
+
+  @orange @loginCredential
+    Scenario Outline: Hacer login con credenciales
+    Given ingreso a la pagina  <Ambiente>
+    When ingreso las credenciales <Name> y <password>
+    Then visualizar el nombre del usuario
+    Examples:
+      | Ambiente |Name |password|
+      | CO |Admin|admin123|

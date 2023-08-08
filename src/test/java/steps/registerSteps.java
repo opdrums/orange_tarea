@@ -19,11 +19,11 @@ public class registerSteps {
     @Step
     public void clickButtonAdminAndAddUser(String main){
         register.clickMainOption(main);
-        register.ClickButtonAddUser();
     }
 
     @Step
     public void SelectElementListForm(String rol, String userState, String employee){
+        register.ClickButtonAddUser();
         register.clickFielddUserRol();
         register.clickElementList(rol);
         register.clickFieldStateUser();
