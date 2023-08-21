@@ -1,9 +1,6 @@
 package steps;
 import net.thucydides.core.annotations.Step;
-import net.thucydides.core.annotations.Steps;
-import org.apache.regexp.RE;
 import org.junit.Assert;
-import pageObjects.loginPo;
 import pageObjects.registerPo;
 import utils.driver_factory.DriverFactory;
 import utils.reporting.Reporte;

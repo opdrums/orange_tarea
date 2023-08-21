@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 
 public class registerPo extends WebBasePage{
 
-    private String optionMain = "//div/ul[@class='oxd-main-menu']/li['Replaceable']/a";
+    private String optionMain = "//div/ul[@class='oxd-main-menu']/li[Replaceable]/a";
     private String optionList = "//div[@role='option'][Replaceable]";
 
     @FindBy (xpath = "//button[@class='oxd-button oxd-button--medium oxd-button--secondary']")

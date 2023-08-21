@@ -43,3 +43,12 @@ MODULO: Pibox --> ESCENARIO: Eliminar usuario
 MODULO: Pibox --> ESCENARIO: Eliminar usuario
 MODULO: Pibox --> ESCENARIO: Eliminar usuario
 MODULO: Pibox --> ESCENARIO: Eliminar usuario
+MODULO: Pibox --> ESCENARIO: agregar usuario pim
+MODULO: Pibox --> ESCENARIO: agregar usuario pim
+MODULO: Pibox --> ESCENARIO: agregar usuario pim
+MODULO: Pibox --> ESCENARIO: seleccionar un usuario y dar click en el boton editar
+MODULO: Pibox --> ESCENARIO: seleccionar un usuario y dar click en el boton editar
+MODULO: Pibox --> ESCENARIO: seleccionar un usuario y dar click en el boton editar
+MODULO: Pibox --> ESCENARIO: seleccionar un usuario y dar click en el boton editar
+MODULO: Pibox --> ESCENARIO: seleccionar un usuario y dar click en el boton editar
+MODULO: Pibox --> ESCENARIO: seleccionar un usuario y dar click en el boton editar
